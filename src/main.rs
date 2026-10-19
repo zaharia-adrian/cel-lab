@@ -1,3 +1,5 @@
+mod simulation_engine;
+
 fn main() {
-    println!("Hello, world!");
+    simulation_engine::automaton::game_of_life::create();
 }
